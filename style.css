@@ -1,0 +1,47 @@
+h1
+{   
+
+        font-size:50px;
+        font-family:Snell Roundhand, cursive;
+        font: weight 900px;;
+        font-style:normal;
+        line-height:18px;
+        color:#ff00b3;
+
+}
+
+h2
+{
+
+    font-size:50px;
+    font-family:Snell Roundhand, cursive;
+    font: weight 900px;;
+    font-style:normal;
+    line-height:18px;
+    color:rgb(180, 124, 233);
+}
+
+h3
+{
+    
+    font-size:20px;
+    font-family:Snell Roundhand, cursive;
+    font: weight 900px;;
+    font-style:normal;
+    line-height:18px;
+    color:#000000;
+
+}
+
+.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(124, 162, 233);    }
+    49%{    color: #ff00b3; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(180, 124, 233;    }
+
+    }
+  
